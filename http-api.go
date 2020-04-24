@@ -9,6 +9,8 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// https://github.com/Devstackr/go-mux-basic-http-api/blob/master/http-api.go
+
 // Player is a struct that represents a single player
 type Player struct {
 	FirstName string `json:"firstName"`
